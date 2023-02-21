@@ -3,8 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Auth from "../routes/Auth";
 import Home from "../routes/Home";
 
-export default function AppRouter () {
-    const [isLoggedIn, setIsLoggedIn] = useState(true);
+export default function AppRouter ({isLoggedIn}) {
     return (
         <>
             <Routes>

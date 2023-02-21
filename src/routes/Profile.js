@@ -1,3 +1,9 @@
 import React from "react";
 
-export default () => <span>Profile</span>
+export default function Profile () {
+    return(
+        <>
+            <span>Profile</span>
+        </>
+    )
+}
